@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		75317DD4210B6CC700ACFD3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75317DD3210B6CC700ACFD3F /* AppDelegate.swift */; };
-		75317DD6210B6CC700ACFD3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75317DD5210B6CC700ACFD3F /* ViewController.swift */; };
 		75317DD9210B6CC700ACFD3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75317DD7210B6CC700ACFD3F /* Main.storyboard */; };
 		75317DDB210B6CC700ACFD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75317DDA210B6CC700ACFD3F /* Assets.xcassets */; };
 		75317DDE210B6CC700ACFD3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75317DDC210B6CC700ACFD3F /* LaunchScreen.storyboard */; };
+		758D37DC210C05720021F1B3 /* CollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D37D0210C05720021F1B3 /* CollectionHeaderView.swift */; };
+		758D37DD210C05720021F1B3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D37D1210C05720021F1B3 /* CollectionViewCell.swift */; };
+		758D37DE210C05720021F1B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D37D2210C05720021F1B3 /* ViewController.swift */; };
+		758D37DF210C05720021F1B3 /* ModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D37D4210C05720021F1B3 /* ModelClass.swift */; };
+		758D37E0210C05720021F1B3 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D37D6210C05720021F1B3 /* LoaderView.swift */; };
+		758D37E1210C05720021F1B3 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D37D8210C05720021F1B3 /* Constant.swift */; };
+		758D37E2210C05720021F1B3 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D37DA210C05720021F1B3 /* APIHandler.swift */; };
+		758D37E3210C05720021F1B3 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758D37DB210C05720021F1B3 /* Utility.swift */; };
+		759442D4210CD6F20058E461 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 759442D2210CD6F10058E461 /* AsyncImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75317DD0210B6CC700ACFD3F /* MTVirat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTVirat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75317DD3210B6CC700ACFD3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75317DD5210B6CC700ACFD3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75317DD8210B6CC700ACFD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75317DDA210B6CC700ACFD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75317DDD210B6CC700ACFD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75317DDF210B6CC700ACFD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758D37D0210C05720021F1B3 /* CollectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionHeaderView.swift; sourceTree = "<group>"; };
+		758D37D1210C05720021F1B3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		758D37D2210C05720021F1B3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		758D37D4210C05720021F1B3 /* ModelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelClass.swift; sourceTree = "<group>"; };
+		758D37D6210C05720021F1B3 /* LoaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		758D37D8210C05720021F1B3 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		758D37DA210C05720021F1B3 /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		758D37DB210C05720021F1B3 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		759442D1210CD6F00058E461 /* MTVirat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTVirat-Bridging-Header.h"; sourceTree = "<group>"; };
+		759442D2210CD6F10058E461 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		759442D3210CD6F20058E461 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +73,71 @@
 			isa = PBXGroup;
 			children = (
 				75317DD3210B6CC700ACFD3F /* AppDelegate.swift */,
-				75317DD5210B6CC700ACFD3F /* ViewController.swift */,
+				758D37D7210C05720021F1B3 /* Constants */,
+				758D37CE210C05720021F1B3 /* MVC */,
+				758D37D9210C05720021F1B3 /* Others */,
 				75317DD7210B6CC700ACFD3F /* Main.storyboard */,
 				75317DDA210B6CC700ACFD3F /* Assets.xcassets */,
 				75317DDC210B6CC700ACFD3F /* LaunchScreen.storyboard */,
 				75317DDF210B6CC700ACFD3F /* Info.plist */,
 			);
 			path = MTVirat;
+			sourceTree = "<group>";
+		};
+		758D37CE210C05720021F1B3 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				758D37CF210C05720021F1B3 /* Controller */,
+				758D37D3210C05720021F1B3 /* Model */,
+				758D37D5210C05720021F1B3 /* View */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		758D37CF210C05720021F1B3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				758D37D0210C05720021F1B3 /* CollectionHeaderView.swift */,
+				758D37D1210C05720021F1B3 /* CollectionViewCell.swift */,
+				758D37D2210C05720021F1B3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		758D37D3210C05720021F1B3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				758D37D4210C05720021F1B3 /* ModelClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		758D37D5210C05720021F1B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				758D37D6210C05720021F1B3 /* LoaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		758D37D7210C05720021F1B3 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				758D37D8210C05720021F1B3 /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		758D37D9210C05720021F1B3 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				759442D3210CD6F20058E461 /* AsyncImageView.h */,
+				759442D2210CD6F10058E461 /* AsyncImageView.m */,
+				758D37DA210C05720021F1B3 /* APIHandler.swift */,
+				758D37DB210C05720021F1B3 /* Utility.swift */,
+				759442D1210CD6F00058E461 /* MTVirat-Bridging-Header.h */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +172,7 @@
 				TargetAttributes = {
 					75317DCF210B6CC700ACFD3F = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +213,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75317DD6210B6CC700ACFD3F /* ViewController.swift in Sources */,
+				758D37E1210C05720021F1B3 /* Constant.swift in Sources */,
+				759442D4210CD6F20058E461 /* AsyncImageView.m in Sources */,
+				758D37DF210C05720021F1B3 /* ModelClass.swift in Sources */,
+				758D37E3210C05720021F1B3 /* Utility.swift in Sources */,
 				75317DD4210B6CC700ACFD3F /* AppDelegate.swift in Sources */,
+				758D37E2210C05720021F1B3 /* APIHandler.swift in Sources */,
+				758D37DC210C05720021F1B3 /* CollectionHeaderView.swift in Sources */,
+				758D37DE210C05720021F1B3 /* ViewController.swift in Sources */,
+				758D37DD210C05720021F1B3 /* CollectionViewCell.swift in Sources */,
+				758D37E0210C05720021F1B3 /* LoaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +359,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MTVirat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.virat.MTVirat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MTVirat/Others/MTVirat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +376,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MTVirat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.virat.MTVirat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MTVirat/Others/MTVirat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
